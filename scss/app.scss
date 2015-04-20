@@ -1,13 +1,16 @@
 @import "settings";
 @import "foundation";
 
-.row {
-    max-width: 960px;
+body{
+    font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+form .small-6.columns {
+    float: none;
+    margin: 0px auto;
+}
 
-
-input[type="text"] {
+input[type="text"],input[type="password"] {
     width: 320px;
     display: block;
-}
+} 
