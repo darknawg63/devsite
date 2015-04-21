@@ -14,14 +14,16 @@
 
       <form>
         <div class="row">
-          <div class="small-6 columns">
+          <div class="small-4 columns">
             <label for="name">Name</label>
             <input type="text" placeholder="Choose a username" id="name" />
             <label for="email">Email</label>
-            <input type="text" placeholder="your@email.com" id="email" />
+            <input type="text" placeholder="you@yourdomain.com" id="email" />
             <label for="password">Password</label>
             <input type="password" placeholder="Choose a password" id="password" />
+            <input type="submit" class="button" value="Create Account">
           </div>
+
         </div>
       </form>
 
@@ -29,6 +31,8 @@
 
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/foundation/js/foundation.min.js"></script>
+    <script src="bower_components/hideShowPassword/hideShowPassword.min.js"></script>
     <script src="js/app.js"></script>
+    <script src="js/util.js"></script>
   </body>
 </html>
